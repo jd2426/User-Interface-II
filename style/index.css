@@ -1,1 +1,57 @@
-/* Add CSS styling here */
+
+header {
+    padding: 1.5rem;
+    background-color: dimgrey;
+    color: white;
+}
+
+header button {
+    background-color: darkslategrey;
+    color: white;
+
+
+}
+
+.main-area {
+    margin-top: 1px;
+    display: flex;
+    padding-top: 10px;
+}
+
+.main-text  {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.main-photo img {
+    border-radius: 2rem;
+    margin-left: 4%;
+}
+
+.img-gallery-top, .img-gallery-bottom {
+    margin-top: .1rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3.5rem;
+}
+
+.footer-content {
+    background-color: darkgrey;
+    margin-top: 2px;
+    text-align: center;
+    padding: 75px;
+    font-size: 50px;
+
+
+}
+
+.footer-content button {
+    background-color: coral;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 40%;
+    border-radius: 0.75rem;
+}
